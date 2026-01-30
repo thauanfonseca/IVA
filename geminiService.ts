@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { MunicipalityData } from "./types";
 
 const getClient = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
   if (!apiKey) {
     console.warn("API Key do Gemini não encontrada.");
     return null;
