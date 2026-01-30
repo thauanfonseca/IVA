@@ -22,9 +22,10 @@ export const getMunicipalityInsight = async (municipality: MunicipalityData): Pr
     - Projeção de Repasse 2025/26: R$ ${municipality.projecaoRepasse.toLocaleString('pt-BR')}
     - Incremento no IPM: ${municipality.incrementoIpm.toFixed(4)}
 
-    Crie um "Ponto de Atenção Estratégico".
+    Analise e gere o texto direto.
     
     Diretrizes de Tom (Sutil e Impessoal):
+    - NÃO use títulos, "Ponto de Atenção:" ou introduções em negrito. Comece o texto direto.
     - NÃO use "nós", "nosso", "minha" ou vocativos. Seja impessoal.
     - Se o IVA subiu: Associe levemente à "gestão técnica eficiente" ou "auditoria assertiva".
     - Se o IVA caiu: Indique que "medidas de controle" ou "revisão técnica" mitigaram perdas maiores.
