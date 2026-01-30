@@ -32,7 +32,7 @@ const App: React.FC = () => {
   const filteredMunicipalities = useMemo(() => {
     return municipalities
       .filter(m => m.name.toLowerCase().includes(searchTerm.toLowerCase()))
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .sort((a, b) => b.variacaoDefinito2024 - a.variacaoDefinito2024);
   }, [searchTerm]);
 
   const handleMunicipalityClick = async (m: MunicipalityData) => {
