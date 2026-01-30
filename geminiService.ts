@@ -24,13 +24,13 @@ export const getMunicipalityInsight = async (municipality: MunicipalityData): Pr
 
     Crie um "Ponto de Atenção Estratégico".
     
-    Diretrizes de Tom (Crucial):
-    - NÃO use "Prefeito" ou vocativos.
-    - Se o IVA subiu: Implicite que foi resultado direto do trabalho técnico de gestão realizado.
-    - Se o IVA caiu: Enfatize que o trabalho técnico EVITOU uma queda ainda maior, mitigando prejuízos.
+    Diretrizes de Tom (Sutil e Impessoal):
+    - NÃO use "nós", "nosso", "minha" ou vocativos. Seja impessoal.
+    - Se o IVA subiu: Associe levemente à "gestão técnica eficiente" ou "auditoria assertiva".
+    - Se o IVA caiu: Indique que "medidas de controle" ou "revisão técnica" mitigaram perdas maiores.
+    - O objetivo é que o leitor perceba o valor do trabalho técnico sem que seja dito explicitamente.
     
-    Seja extremamente convincente e executivo.
-    Máximo 30 palavras.
+    Máximo 40 palavras.
   `;
 
   try {
