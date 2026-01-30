@@ -22,9 +22,9 @@ export const getMunicipalityInsight = async (municipality: MunicipalityData): Pr
     - Projeção de Repasse 2025/26: R$ ${municipality.projecaoRepasse.toLocaleString('pt-BR')}
     - Incremento no IPM: ${municipality.incrementoIpm.toFixed(4)}
 
-    Crie um "Insight Relâmpago" para o Prefeito.
-    Destaque SOMENTE o ponto mais crítico (positivo ou negativo) impactando a receita.
-    Seja extremamente direto e executivo. Máximo 15 palavras. Sem introduções.
+    Crie um "Ponto de Atenção Estratégico" para o Prefeito.
+    Analise o cenário e destaque oportunidades de melhoria na arrecadação ou riscos fiscais.
+    Seja executivo e diplomático. Máximo 3 frases (aprox. 40 palavras). Sem introduções genéricas.
   `;
 
   try {
