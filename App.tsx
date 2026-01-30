@@ -1,8 +1,8 @@
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell,
-  LineChart, Line, ReferenceLine
+  LineChart, Line
 } from 'recharts';
 import { 
   TrendingUp, Users, DollarSign, ChevronRight, 
@@ -254,7 +254,7 @@ const App: React.FC = () => {
                     <YAxis dataKey="name" type="category" width={110} tick={{ fontSize: 11, fontWeight: '700', fill: '#64748b' }} axisLine={false} tickLine={false} />
                     <Tooltip 
                       cursor={{fill: '#f8fafc'}}
-                      formatter={(value: number) => [`${value.toFixed(2)}%`, 'Variação']}
+                      formatter={(value: number | undefined) => [value ? `${value.toFixed(2)}%` : '0%', 'Variação']}
                       contentStyle={{ borderRadius: '16px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', padding: '12px' }}
                     />
                     <Bar dataKey="variacaoDefinito2024" radius={[0, 8, 8, 0]} barSize={24}>
