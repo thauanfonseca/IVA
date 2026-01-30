@@ -23,8 +23,13 @@ export const getMunicipalityInsight = async (municipality: MunicipalityData): Pr
     - Incremento no IPM: ${municipality.incrementoIpm.toFixed(4)}
 
     Crie um "Ponto de Atenção Estratégico" para o Prefeito.
-    Analise o cenário e destaque oportunidades de melhoria na arrecadação ou riscos fiscais.
-    Seja executivo e diplomático. Máximo 3 frases (aprox. 40 palavras). Sem introduções genéricas.
+    
+    Diretrizes de Tom (Crucial):
+    - Se o IVA subiu: Implicite que foi resultado direto do trabalho técnico de gestão realizado.
+    - Se o IVA caiu: Enfatize que o trabalho técnico EVITOU uma queda ainda maior, mitigando prejuízos.
+    
+    Seja extremamente convincente, executivo e diplomático. 
+    Máximo 50 palavras.
   `;
 
   try {
