@@ -1,0 +1,5 @@
+{
+  "name": "Dashboard de Gestão Fazendária Municipal",
+  "description": "Uma plataforma interativa para apresentação de resultados fiscais e projeções de repasse de ICMS/IVA para prefeituras.",
+  "requestFramePermissions": []
+}
